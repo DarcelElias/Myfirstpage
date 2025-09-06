@@ -1,0 +1,76 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+  font-family: 'calibri', sans-serif;
+}
+.header{
+  height: 120px;
+  width: 100%;
+  display: flex;
+}
+.imgbea{
+  border-radius: 60px;
+}
+.emer, .facil{
+  width: 360px;
+  height: 250px;
+}
+.phoneicon, .menuicon{
+  height: 50px;
+  width: 50px;
+  padding-top: 20px;
+}
+.phoneicon{
+  margin-left: 10px;
+}
+.menuicon{
+  margin-left: 10px;
+}
+.bea{
+  font-size: 20px;
+  padding-top: 20px;
+  font-family: 'lato';
+  font-weight: 900;
+}
+.welcomenote, .emergency, .facilities, .aboutUs{
+  background-color: #1343B4;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.facilities{
+  padding-bottom: 10px;
+}
+footer{
+  background-color: #1343B4;
+  width: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  position: fixed;
+  bottom: 0;
+}
+.menuContainer{
+  background-color: #1343B4;
+  margin: 1rem;
+  padding: 3rem;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 10px;
+}
+#home, #aboutUs, #ourServices, #appointment, #training, #contactUs{
+  padding-top: 15px;
+  font-weight: 500;
+}
+.addinfo{
+  background-color: blue;
+  padding: 2rem;
+  text-align: center;
+  color: #FFFFFF;
+}
+.imgbeatrice{
+  width: 360px;
+  height: 400px;
+}
